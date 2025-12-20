@@ -10,7 +10,7 @@ const Hero = () => {
           <div className="animate-fade-up text-center lg:text-left">
             <div className="inline-flex items-center gap-2 bg-secondary/10 text-secondary px-4 py-2 rounded-full text-sm font-medium mb-6">
               <Star className="w-4 h-4 fill-secondary" />
-              Trusted by 10,000+ Students
+              Trusted by 500+ Students
             </div>
             
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-6">
@@ -43,7 +43,7 @@ const Hero = () => {
                   <GraduationCap className="w-5 h-5 md:w-6 md:h-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <p className="font-semibold text-foreground text-sm md:text-base">500+</p>
+                  <p className="font-semibold text-foreground text-sm md:text-base">50+</p>
                   <p className="text-xs md:text-sm text-muted-foreground">Expert Writers</p>
                 </div>
               </div>
@@ -52,7 +52,7 @@ const Hero = () => {
                   <Users className="w-5 h-5 md:w-6 md:h-6 text-secondary" />
                 </div>
                 <div className="text-left">
-                  <p className="font-semibold text-foreground text-sm md:text-base">10,000+</p>
+                  <p className="font-semibold text-foreground text-sm md:text-base">500+</p>
                   <p className="text-xs md:text-sm text-muted-foreground">Happy Students</p>
                 </div>
               </div>
