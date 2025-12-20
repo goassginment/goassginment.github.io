@@ -15,8 +15,8 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
-        <a href="#" className="flex items-center gap-3">
-          <img src={logo} alt="Go Assignment Logo" className="h-10 md:h-12 w-auto" />
+        <a href="#" className="flex items-center gap-2 hover-scale">
+          <img src={logo} alt="Go Assignment Logo" className="h-8 md:h-10 w-auto" />
         </a>
         
         {/* Desktop Navigation */}

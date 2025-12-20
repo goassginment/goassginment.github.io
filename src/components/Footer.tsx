@@ -17,7 +17,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
           <div className="text-center sm:text-left">
-            <img src={logo} alt="Go Assignment" className="h-14 md:h-16 w-auto mb-4 brightness-0 invert mx-auto sm:mx-0" />
+            <img src={logo} alt="Go Assignment" className="h-10 md:h-12 w-auto mb-4 brightness-0 invert mx-auto sm:mx-0" />
             <p className="text-background/70 text-sm leading-relaxed">
               Your trusted partner for academic success. We help students achieve their 
               educational goals with high-quality assignment assistance.
