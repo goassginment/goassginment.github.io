@@ -72,7 +72,7 @@ const Hero = () => {
             <img 
               src={logo} 
               alt="Go Assignment" 
-              className="w-64 lg:w-80 h-auto drop-shadow-2xl"
+              className="w-48 lg:w-64 h-auto drop-shadow-2xl"
             />
           </div>
         </div>

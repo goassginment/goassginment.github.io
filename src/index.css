@@ -110,6 +110,14 @@
   .shadow-glow {
     box-shadow: var(--shadow-glow);
   }
+
+  .hover-scale {
+    @apply transition-transform duration-200 hover:scale-105;
+  }
+
+  .hover-lift {
+    @apply transition-all duration-300 hover:-translate-y-1 hover:shadow-glow;
+  }
 }
 
 @layer components {
@@ -120,6 +128,11 @@
   .animate-fade-in {
     animation: fadeIn 0.5s ease-out forwards;
   }
+
+  .stagger-1 { animation-delay: 0.1s; }
+  .stagger-2 { animation-delay: 0.2s; }
+  .stagger-3 { animation-delay: 0.3s; }
+  .stagger-4 { animation-delay: 0.4s; }
 
   @keyframes fadeUp {
     from {
