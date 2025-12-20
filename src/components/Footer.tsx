@@ -13,18 +13,18 @@ const TikTokIcon = () => (
 
 const Footer = () => {
   return (
-    <footer id="contact" className="bg-foreground text-background py-16">
+    <footer id="contact" className="bg-foreground text-background py-12 md:py-16">
       <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-3 gap-12">
-          <div>
-            <img src={logo} alt="Go Assignment" className="h-16 w-auto mb-4 brightness-0 invert" />
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
+          <div className="text-center sm:text-left">
+            <img src={logo} alt="Go Assignment" className="h-14 md:h-16 w-auto mb-4 brightness-0 invert mx-auto sm:mx-0" />
             <p className="text-background/70 text-sm leading-relaxed">
               Your trusted partner for academic success. We help students achieve their 
               educational goals with high-quality assignment assistance.
             </p>
           </div>
           
-          <div>
+          <div className="text-center sm:text-left">
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li><a href="#services" className="text-background/70 hover:text-secondary transition-colors text-sm">Our Services</a></li>
@@ -33,12 +33,12 @@ const Footer = () => {
             </ul>
           </div>
           
-          <div>
+          <div className="text-center sm:text-left sm:col-span-2 lg:col-span-1">
             <h3 className="text-lg font-semibold mb-4">Connect With Us</h3>
-            <p className="text-background/70 text-sm mb-4">Follow us on social media for updates and academic tips.</p>
-            <div className="flex gap-4">
+            <p className="text-background/70 text-sm mb-4">Follow @TheGoAssignment on social media</p>
+            <div className="flex gap-4 justify-center sm:justify-start">
               <a 
-                href="https://www.instagram.com/thegoassignment" 
+                href="https://www.instagram.com/TheGoAssignment" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-background/10 hover:bg-secondary flex items-center justify-center transition-all duration-300 hover:scale-110"
@@ -47,7 +47,7 @@ const Footer = () => {
                 <Instagram className="w-5 h-5" />
               </a>
               <a 
-                href="https://www.facebook.com/thegoassignment" 
+                href="https://www.facebook.com/TheGoAssignment" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-background/10 hover:bg-secondary flex items-center justify-center transition-all duration-300 hover:scale-110"
@@ -56,7 +56,7 @@ const Footer = () => {
                 <Facebook className="w-5 h-5" />
               </a>
               <a 
-                href="https://www.tiktok.com/@thegoassignment" 
+                href="https://www.tiktok.com/@TheGoAssignment" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-background/10 hover:bg-secondary flex items-center justify-center transition-all duration-300 hover:scale-110"
@@ -68,7 +68,7 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="border-t border-background/10 mt-12 pt-8 text-center">
+        <div className="border-t border-background/10 mt-10 md:mt-12 pt-6 md:pt-8 text-center">
           <p className="text-background/50 text-sm">
             © {new Date().getFullYear()} GoAssignment.com. All rights reserved.
           </p>
