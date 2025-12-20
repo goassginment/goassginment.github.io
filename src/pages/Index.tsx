@@ -5,6 +5,7 @@ import WhyUs from "@/components/WhyUs";
 import HowItWorks from "@/components/HowItWorks";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 const Index = () => {
   return (
@@ -18,6 +19,7 @@ const Index = () => {
         <CTA />
       </main>
       <Footer />
+      <WhatsAppButton />
     </div>
   );
 };
